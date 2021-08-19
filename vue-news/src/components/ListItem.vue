@@ -55,11 +55,11 @@ export default Vue.extend({
 
   computed: {
     // timeAgo(): string {
-    //   return this.items[0].time_ago.concat()
+    //   return this.items[0].time_ago.concat(', 2021')
     // },
-    listItems(): any {
-      return this.$store.getters.fetchedList;
-    },
+    // listItems(): any {
+    //   return this.$store.getters.fetchedList;
+    // },
   },
 });
 </script>
